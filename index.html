@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>bd</title>
+	<title>Happy Birthday</title>
   <link rel="icon" href="assets/img/">
   <meta charset="UTF-8">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -116,94 +116,34 @@
   </div>
   
   <video autoplay muted loop id="myVideo">
-    <source src="file:///D:/Birthday/picture/slide1.1.mp4" type="video/mp4">
+    <source src="slide1.1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
 </section>
 
 <section class="slide fade-6 kenBurns fromRight">
   <video autoplay muted loop id="myVideo">
-    <source src="file:///D:/Birthday/picture/slide2.6.mp4" type="video/mp4"> 
+    <source src="slide2.6.mp4" type="video/mp4"> 
   </video>
 </section>
 
 <section class="slide fade-6 kenBurns fromRight">
   <video autoplay muted loop id="myVideo">
-    <source src="file:///D:/Birthday/picture/slide3.7.mp4" type="video/mp4"> 
+    <source src="slide3.7.mp4" type="video/mp4"> 
   </video>
 </section>
 
 <section class="slide fade-6 kenBurns fromRight">
   <video autoplay muted loop id="myVideo">
-    <source src="file:///D:/Birthday/picture/slide4.2.mp4" type="video/mp4"> 
+    <source src="slide4.2.mp4" type="video/mp4"> 
   </video>
 </section>
 
 <section class="slide fade-6 kenBurns fromRight">
   <video autoplay muted loop id="myVideo">
-    <source src="file:///D:/Birthday/picture/slide5.3.mp4" type="video/mp4"> 
+    <source src="slide5.3.mp4" type="video/mp4"> 
   </video>
 </section>
-
-<!-- Slide 4 (#59)-->
-<section class="slide fade-6 kenBurns fromTop">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-12-12">
-          <div class="w3-container">
-            <h2 class="ae-6"><b>A2K52 member info</b></h2>
-          </div>
-          <!-- Add a caption text for each image slide with the w3-display-* classes  -->
-          <!-- (topleft, topmiddle, topright, bottomleft, bottommiddle, bottomright or middle). -->
-
-            <div class="w3-display-container owoSlides">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <img src="assets/img/classlist/49.jpg" alt="?" style="width:300px">
-                  </div>
-                  <div class="flip-card-back">
-                    <h1>Nguyễn Trần</h1>
-                    <h1>Quang Vinh</h1> 
-                    <p>Class member</p> 
-                    <p>20/12/2003
-                    </p>
-                    <a href="https://www.facebook.com/profile.php?id=100029328018108">Personal Facebook</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <button class="w3-button w3-display-left w3-black ae-3" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-display-right w3-black ae-3" onclick="plusDivs(1)">&#10095;</button>
-            
-            </div>          
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/background/a2-k52-6.jpg)"></div>
-</section>
-<script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("owoSlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>
 <div class="progress-bar blue"></div>
 </body>
 </html>
